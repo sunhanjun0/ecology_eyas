@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="4f219e65-ec8a-42de-9515-30ac0b45feba" name="Default" comment="" />
+=======
+    <list default="true" id="4f219e65-ec8a-42de-9515-30ac0b45feba" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSP/test.jsp" afterPath="$PROJECT_DIR$/JSP/test.jsp" />
+    </list>
+>>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -439,11 +446,36 @@
       <workItem from="1508306482651" duration="1337000" />
       <workItem from="1508421734777" duration="12845000" />
       <workItem from="1508490881345" duration="6160000" />
+<<<<<<< Updated upstream
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="51105000" />
+=======
+      <workItem from="1508568134043" duration="1795000" />
+      <workItem from="1508570883384" duration="1708000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1508571367892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508571367892</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1508572622143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508572622143</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="54608000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
