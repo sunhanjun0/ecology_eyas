@@ -20,7 +20,7 @@ public class GetLeaveDay extends BaseBean{
     // private String js = jsrq + " " + jssj ;  //拼接结束日期和结束时间
     private void LeaveDay(){
         writeLog("进入日期计算过程");
-        writeLog("-----------计算开始-----------");
+        writeLog("-----------计算开始-------");
         writeLog(ksrq);
         writeLog(jsrq);
         writeLog(kssj);
@@ -35,7 +35,7 @@ public class GetLeaveDay extends BaseBean{
                         + "'" + qjlx + "'" + ","
                         + getsqrBH(sqrID) + ",0,0,@result out,@leave_time out,@leave_days out " +
                         "select @result as MSG,@leave_time as TIME,@leave_days as DAY";
-        writeLog("sql语句打印：" + sql);
+        writeLog("sql语句00打印：" + sql);
         RecordSetDataSource rs = new RecordSetDataSource("EHR_test");
         try {
             rs.executeSql(sql);
@@ -89,7 +89,7 @@ public class GetLeaveDay extends BaseBean{
 
     public Map getLeavemap() {
         LeaveDay();
-        writeLog("-----------执行方法getleavemessage-----------");
+        writeLog("--------执行方法getleavemessage--------");
         leavemap.put("day",leaveDay);
         writeLog("leaveDay数据写入");
         leavemap.put("msg", leaveMsg);
