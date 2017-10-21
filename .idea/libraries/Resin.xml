@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Resin">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../ecology_eyas/Resin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../ecology_eyas/Resin" recursive="false" />
+  </library>
+</component>
