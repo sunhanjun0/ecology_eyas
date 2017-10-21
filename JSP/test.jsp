@@ -19,7 +19,7 @@
     messge = (String) TestInfo.get("msg");
     day = (Float) TestInfo.get("day");
 %>
-
+888888
 <script>
     alert(<%=messge%>);
     alert(<%=day%>);
